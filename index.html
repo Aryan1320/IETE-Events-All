@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Renaissance — Tech Fest Events</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Nav with IETE logo -->
+  <header class="nav">
+    <div class="container">
+      <a class="brand" href="#">
+        <img class="brand-logo" src="assets/iete-logo.svg" alt="IETE logo" width="28" height="28" />
+        <span class="brand-text">Renaissance</span>
+      </a>
+      <nav class="links" aria-label="Primary">
+        <a href="#overview">Overview</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#events">Events</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="overview" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1 id="hero-title">Renaissance 2025 — Cyber Light</h1>
+        <p class="lede">
+          Futuristic events, neon-accented vibes, and hands-on innovation — designed for clarity in light mode. Oct 4–5, 2025. [IoT, AI/ML, Smart Cities, Healthcare Tech]
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="#events">Explore Events</a>
+          <a class="btn ghost" href="#schedule">View Schedule</a>
+        </div>
+        <ul class="badges" aria-label="Event highlights">
+          <li class="badge blue">Hackathon 24–48h</li>
+          <li class="badge magenta">Paper Presentations</li>
+          <li class="badge orange">Circuit Sprints</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="panel neon-outline">
+          <div class="glow-ring"></div>
+          <div class="gridlines"></div>
+          <div class="bars"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">Scroll</div>
+  </section>
+
+  <!-- Scrollytelling band -->
+  <section class="band band-cyber">
+    <div class="container">
+      <h2 class="band-title">Futuristic • Neon Accents • Interactive</h2>
+      <p class="band-copy">A light canvas with controlled neon to preserve accessibility and readability while delivering cyber energy.</p>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section class="section" id="schedule" aria-labelledby="schedule-title">
+    <div class="container">
+      <h2 id="schedule-title" class="section-title">Schedule</h2>
+      <div class="schedule-grid">
+        <article class="tile">
+          <h3>Oct 4, 2025</h3>
+          <ul class="list">
+            <li>Tech Quiz • 10:00</li>
+            <li>Hackathon Start • 12:00</li>
+            <li>Circuit Sprint • 15:00</li>
+            <li>Treasure Hunt • 16:30</li>
+          </ul>
+        </article>
+        <article class="tile">
+          <h3>Oct 5, 2025</h3>
+          <ul class="list">
+            <li>Paper Presentations • 10:00</li>
+            <li>Debate & Extempore • 13:00</li>
+            <li>Talent Night • 17:30</li>
+            <li>Hackathon Demos • 18:30</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section class="section" id="events" aria-labelledby="events-title">
+    <div class="container">
+      <h2 id="events-title" class="section-title">Events</h2>
+
+      <h3 class="event-category">Technical</h3>
+      <div class="cards">
+        <article class="card">
+          <div class="card-top">
+            <span class="chip chip-blue">Hackathon</span>
+            <span class="date">Oct 4–5</span>
+          </div>
+          <figure class="card-media">
+            <img src="assets/events/hackathon.jpg" alt="Team coding during the 48-hour hackathon at Renaissance" loading="lazy" />
+          </figure>
+          <h4>48h Cyber Hack</h4>
+          <p>Build solutions in IoT, AI/ML, Smart Cities, or Healthcare Tech. Teams, mentors, and neon-clean UX.</p>
+          <a class="btn small" href="hackathon.html">Details</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="chip chip-magenta">Quiz</span>
+            <span class="date">Oct 4</span>
+          </div>
+          <figure class="card-media">
+            <img src="assets/events/quiz.jpg" alt="Contestants at the Renaissance tech quiz buzzer round" loading="lazy" />
+          </figure>
+          <h4>Tech Quiz Arena</h4>
+          <p>Electronics, telecom, and tech awareness with MCQs, rapid fire, and buzzer rounds.</p>
+          <a class="btn small" href="quiz.html">Details</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="chip chip-orange">Circuits</span>
+            <span class="date">Oct 4</span>
+          </div>
+          <figure class="card-media">
+            <img src="assets/events/circuits.jpg" alt="Hands assembling an electronic circuit during the Renaissance sprint" loading="lazy" />
+          </figure>
+          <h4>Circuit Sprint</h4>
+          <p>Diagnose and design against the clock. Tools ready. Show hands-on grit.</p>
+          <a class="btn small" href="circuits.html">Details</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="chip chip-blue">Papers</span>
+            <span class="date">Oct 5</span>
+          </div>
+          <figure class="card-media">
+            <img src="assets/events/papers.jpg" alt="Presenter showcasing robotics research at Renaissance" loading="lazy" />
+          </figure>
+          <h4>Paper Presentations</h4>
+          <p>5G, embedded systems, and robotics. Judged by industry experts.</p>
+          <a class="btn small" href="papers.html">Details</a>
+        </article>
+      </div>
+
+      <h3 class="event-category">Non-Technical</h3>
+      <div class="cards">
+        <article class="card">
+          <div class="card-top">
+            <span class="chip chip-green">Hunt</span>
+            <span class="date">Oct 4</span>
+          </div>
+          <figure class="card-media">
+            <img src="assets/events/treasure.jpg" alt="Students solving a Renaissance treasure hunt clue on campus" loading="lazy" />
+          </figure>
+          <h4>Treasure Hunt</h4>
+          <p>Campus clues, logic, and teamwork. Light-mode neon thrills.</p>
+          <a class="btn small" href="treasure.html">Details</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="chip chip-yellow">Debate</span>
+            <span class="date">Oct 5</span>
+          </div>
+          <figure class="card-media">
+            <img src="assets/events/debate.jpg" alt="Speakers in a timed tech debate at Renaissance" loading="lazy" />
+          </figure>
+          <h4>Debate & Extempore</h4>
+          <p>Speak on tech and general topics. Timing, wit, clarity.</p>
+          <a class="btn small" href="debate.html">Details</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="chip chip-magenta">Art</span>
+            <span class="date">Oct 4</span>
+          </div>
+          <figure class="card-media">
+            <img src="assets/events/poster.jpg" alt="Poster on Digital India and future technology for Renaissance" loading="lazy" />
+          </figure>
+          <h4>Poster Design</h4>
+          <p>Create on “Digital India” and “Future of Technology.”</p>
+          <a class="btn small" href="poster.html">Details</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="chip chip-orange">Talent</span>
+            <span class="date">Oct 5</span>
+          </div>
+          <figure class="card-media">
+            <img src="assets/events/openmic.jpg" alt="Performer at the Renaissance open mic under neon light" loading="lazy" />
+          </figure>
+          <h4>Open Mic Night</h4>
+          <p>Singing, poetry, stand-up — let the neon spotlight shine.</p>
+          <a class="btn small" href="openmic.html">Details</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="container">
+      <h2 id="faq-title" class="section-title">FAQ</h2>
+      <details class="faq">
+        <summary>Are animations accessible?</summary>
+        <p>Motion is minimized for users preferring reduced motion; neon glows avoid flicker and high-speed flashing.</p>
+      </details>
+      <details class="faq">
+        <summary>Are colors contrast-checked?</summary>
+        <p>Text and UI aim for AA or higher; verify changes with a contrast checker during edits.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Renaissance Fest — Built for clarity in light mode</p>
+    </div>
+  </footer>
+</body>
+</html>
